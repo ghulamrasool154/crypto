@@ -1,0 +1,93 @@
+.css-c2k196[aria-selected="true"],
+.css-c2k196[data-selected] {
+  border-color: #1f487c #1f487c #1f487c;
+  background: #0e2542;
+  border: none;
+}
+
+.-custom-tabgs .css-a5mhaz{
+  padding: 0 !important;
+}
+
+.css-1xhq01z {
+  border: none !important;
+}
+.tabbutton {
+  padding: 15px 25px !important;
+  font-weight: 500;
+  font-size: 14px;
+  color: #e5f0ff !important;
+  text-align: center;
+  margin: 0 20px 0 0;
+  border: none;
+  border-radius: 5px;
+}
+
+.more-tab {
+  position: relative;
+  display: inline-flex;
+  vertical-align: middle;
+  align-items: center;
+  align-content: center;
+  color: #019dea;
+}
+
+.nav-tabs-more {
+  min-width: 200px;
+  background: #0e2542;
+  box-shadow: 0 0 7px rgb(0 0 0 / 10%);
+  /* position: absolute;
+  top: 40px;
+  left: 0;
+  z-index: 1; */
+  z-index: 5;
+  position: absolute;
+  right: -50px;
+  top: 50px;
+
+  max-height: 209px;
+  overflow-x: auto;
+}
+.nav-tabs-more .nav-link-more {
+  margin: 0;
+  padding: 10px 15px;
+  border-bottom: 1px solid #1f487c;
+  border-radius: 0;
+  text-align: left;
+  display: block;
+  font-weight: 500;
+  font-size: 14px;
+  color: #e5f0ff;
+  text-align: start;
+  width: 100%;
+}
+
+.nav-tabs-more .nav-link-more:hover {
+  background-color: #019dea;
+  text-decoration: none;
+}
+span.blueicon {
+  display: block;
+  margin-left: 10px;
+}
+
+@media screen  and (max-width : 993px){
+  .tabbutton {
+    padding: 5px 20px !important ;
+    margin-bottom: 20px;
+    margin: 0 0 0 0 !important;
+    font-size: 15px !important;
+}
+  
+}
+
+@media screen  and (max-width : 768px){
+  .tabbutton{
+    display: none !important; 
+  }
+  .popularheading,
+  .more-tab{
+    text-align: center;
+    margin: auto;
+  }
+}

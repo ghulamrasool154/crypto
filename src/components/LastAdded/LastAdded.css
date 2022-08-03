@@ -1,0 +1,31 @@
+.lastheading {
+  font-weight: 500 !important;
+  font-size: 30px !important;
+  color: #fff;
+  margin-bottom: 1.5rem;
+}
+/* 
+.aboutitem img{
+  width: 100%;
+} */
+@media screen and (max-width: 1200px) {
+  .chakra-container.LastAdded  {
+    padding: 50px 50px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 993px) {
+  .chakra-container.LastAdded  {
+    width: 90%;
+    padding: 0 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .chakra-container.LastAdded  {
+    width: 100%;
+    padding: 50px 30px;
+  }
+ 
+}

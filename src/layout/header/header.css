@@ -1,0 +1,159 @@
+.nav-bar-custom .nav-custom-link.active {
+  color: #019dea;
+}
+
+.nav-bar-custom ul {
+  display: flex;
+}
+.nav-bar-custom .nav-custom-link {
+  font-weight: 500;
+  font-size: 14px;
+  color: #e4e4e4;
+  padding: 0;
+}
+
+.selectlist {
+  color: white;
+  font-weight: 300 !important;
+}
+
+.nav-bar-custom ul li {
+  margin: 0 30px 0 0;
+}
+
+.header-colum {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-content: stretch;
+  align-items: center;
+}
+
+.logo {
+  display: inline-flex;
+  align-items: center;
+  align-content: center;
+  min-width: 100px;
+}
+
+.searchform {
+  width: 100%;
+  max-width: 360px;
+  /* margin: 0 25px 0 0px; */
+  margin: 0;
+  display: inline-flex;
+  align-items: center;
+  align-content: center;
+}
+.searchform form {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center !important;
+}
+
+.searchform form input {
+  width: 100%;
+  background: rgb(19 45 78 / 50%);
+  border: none;
+  border-radius: 10px;
+  padding: 12px 11px 12px 53px;
+  font-weight: 300;
+  font-size: 13px;
+  color: #b1bbd4;
+}
+
+.searchform form input::placeholder {
+  color: #b1bbd4;
+  font-weight: 300;
+}
+input {
+  outline: none !important;
+}
+
+.searchform .icon-input-header {
+  position: absolute;
+  border: none;
+  background: none;
+  left: 17px;
+  padding: 0;
+}
+
+.loginWallet {
+  display: inline-flex;
+  align-items: center;
+  align-content: center;
+  vertical-align: middle;
+}
+
+.loginWallet a {
+  min-width: inherit;
+  width: 43px;
+  height: 43px;
+  background: #102944;
+  display: inline-flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  border-radius: 90px;
+}
+
+.loginWallet .user {
+  margin-right: 1rem !important;
+}
+
+.responsive-menu-header,
+.responsive-menu-setting-button {
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .responsive-menu-header {
+    display: block;
+    position: absolute;
+    top: 90px;
+    left: 0;
+    width: 100%;
+    background: #020a18;
+    z-index: 5;
+    padding: 50px;
+    height: auto;
+  }
+
+  .responsive-menu-header .nav-custom-link.active {
+    color: #019dea;
+  }
+
+  .responsive-menu-header ul li{
+    padding: 10px 0;
+  }
+  .responsive-menu-header .nav-custom-link {
+    font-weight: 500;
+    font-size: 14px;
+    color: #e4e4e4;
+    padding: 0;
+  }
+
+  .responsive-menu-setting-button {
+    display: block;
+    position: absolute;
+    right: 0;
+  }
+  .header-colum {
+    position: relative;
+    justify-content: start;
+  }
+  .nav-bar-custom {
+    display: none;
+  }
+  .searchform {
+    margin: 0 50px;
+  }
+}
+
+@media screen and (max-width: 993px) {
+  .searchform {
+    margin: 0 20px;
+  }
+}

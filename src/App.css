@@ -1,0 +1,63 @@
+.img-section-top img {
+  width: 100%;
+}
+.aboutitemcnt .leftside p {
+  text-align: start;
+}
+
+h2.page-title {
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  padding: 100px 0;
+  text-transform: capitalize;
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+
+.discover3{
+  padding: 50px 0;
+}
+.create-page {
+  padding: 50px 0;
+}
+
+.creators,
+.aboutitem{
+  border-radius: 10px ;
+  overflow: hidden;
+}
+@media screen and (max-width: 1200px) {
+  
+  
+  .head-cont {
+    padding: 25px 50px 0px 50px !important;
+  }
+  .create-page {
+      width: 90% !important;
+  
+  }
+}
+
+@media screen and (max-width: 993px) {
+ 
+  .head-cont {
+    width: 90% !important;
+    padding: 25px 0 0 0 !important;
+  }
+}
+@media screen and (max-width: 768px) {
+.create-page {
+  width: 100%;
+  padding: 50px 30px !important;
+}
+  .head-cont {
+    width: 100% !important;
+    padding: 15px 30px 15px 30px !important;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+  }
+  .head-cont .loginWallet,
+  .head-cont .searchform{
+    display: none;
+  }
+}

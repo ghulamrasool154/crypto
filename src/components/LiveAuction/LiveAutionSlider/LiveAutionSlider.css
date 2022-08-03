@@ -1,0 +1,34 @@
+.liveSlider .aboutitemcnt {
+    background-color: #0a1f3a;
+}
+.liveSlider .aboutitemcnt {
+    display: flex;
+    padding: 20px;
+}
+
+.liveSlider .aboutitemcnt img {
+    max-width: 15px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.liveSlider .aboutitemcnt strong {
+    font-weight: 400;
+}
+ .time-gr{
+    color: #019DEA !important;
+}
+
+.liveSlider .textwhitecolor {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 0 0 15px;
+}
+
+.liveSlider .textwhitecolor.heart{
+    text-align: end;
+}
+
+.liveSlider .chakra-text{
+    padding-left: 0;
+}

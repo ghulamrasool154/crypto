@@ -1,0 +1,26 @@
+.second-table{
+    display: flex;
+    align-items: center;
+}
+.icon-sec{
+    display: flex;
+}
+.mob-id , .name , .ratio{
+    color: #E5F0FF;
+    font-weight: 400;
+    font-size: 14px;
+}
+.price{
+    color: #019DEA;
+    font-size: 14px; 
+}
+.mobiimg{
+    padding: 0 10px 0 0;  
+   
+}
+.mobileImage{
+    margin-right: 8px;
+}
+.name{
+    margin-bottom: 10px;
+}

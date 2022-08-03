@@ -1,0 +1,30 @@
+
+.popularheading{
+    font-weight: 500 !important;
+    font-size: 30px !important;
+    color: #fff;
+    margin-bottom: 1.5rem;
+}
+
+.chakra-tabs__tab-panels {
+    margin-top: 20px !important;
+}
+
+@media screen and (max-width: 1200px) {
+ 
+    .chakra-tabs__tablist{
+        justify-content: center !important;
+    }
+    .tabbutton {
+        padding: 10px 25px ;
+        margin-bottom: 20px;
+    }
+    .popularheading,
+    .text-center-class-cutom {
+      text-align: center;
+      font-size: 25px !important;
+    }
+}
+
+
+

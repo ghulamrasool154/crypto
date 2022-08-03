@@ -1,0 +1,498 @@
+.item-section{
+    padding-top: 24px !important;
+    background:#050D1D;
+}
+.image-section_ img{
+    border-radius: 10px;
+}
+.nested-list{
+    display: flex;
+}
+li{
+    list-style-type: none;
+}
+.social-link{
+    padding: 10px 15px !important;
+   font-family: 'Poppins', sans-serif !important;
+    font-style: normal;
+    font-weight: 300 !important;
+    font-size: 13px !important;
+    line-height: 19px !important;
+    color: #FFFFFF !important;
+    border-radius: 8px !important;
+    letter-spacing: 1px;
+    display: flex !important;
+    margin-right: 24px !important;
+}
+.tweet{
+    background: #019dea !important;   
+}
+.fb{
+    background: #3B5998 !important;  
+}
+.share{
+    background: #4680C2 !important; 
+}
+.sharevector{
+    background: #0A1F3A !important;
+}
+.nested-list img{
+margin-right: 8px;
+}
+.nested-list a{
+    text-decoration: none !important;
+}
+.wishlist{
+    display: flex;
+}
+.wishlist p{
+    font-family: 'Poppins', sans-serif !important;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+}
+.social-media-icon{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+.wishlist img{
+    margin-right: 8px;
+}
+.createdby p{
+    font-family: 'Poppins', sans-serif !important;
+    font-style: normal;
+    font-weight: 300 !important;
+    font-size: 15px !important;
+    line-height: 25px;
+    color: #FBFBFB !important;
+    margin-bottom: 20px !important;  
+    padding-left: 0px !important;
+}
+.createdby strong{
+    color: #fff!important;
+    font-weight: 500;
+    
+}
+.createdby strong a{
+    color:#09a2ef; 
+}
+.discription{
+    font-family: 'Poppins', sans-serif !important;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FBFBFB;
+    margin-bottom: 20px;
+}
+.item-section .left-section{
+    width: 52%;
+}
+.item-section  .right-section{
+    width: 45%;
+    margin-top: 48px;
+    padding-left: 80px;
+    padding-top: 24px;
+
+}
+.create , .collect{
+    display: flex;
+    align-items:center;
+}
+.createncollection{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+.create img , .collect img{
+    border-radius: 10px;
+}
+.Headings h6{
+    font-family: 'Poppins', sans-serif !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 37px;
+    text-align: left;
+    color: #FFFFFF;  
+}
+.mobile-section-item{
+    display: none !important;
+}
+.createncollection h6 , .createncollection2 h6{
+    word-break: break-all;
+    font-family: 'Poppins', sans-serif !important;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 25px;
+    color: #AAB0C0;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+.createncollection a , .createncollection2 a{
+    word-break: break-word;
+    font-family: 'Poppins', sans-serif !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #DFDFDF;
+    padding-left: 15px;
+    text-decoration: none !important;
+}
+.curentPri{
+    word-break: break-all;
+    font-family: 'Poppins', sans-serif !important;
+    font-style: normal;
+    font-weight: 300 !important;
+    font-size: 14px !important;
+    line-height: 25px !important;
+    color: #AAB0C0;  
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+.buy{
+    border: none;
+    padding: 20px !important;
+    min-width: 180px !important;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    background: #019DEA !important;
+    font-weight: 500 !important;
+    font-size: 15px !important;
+    margin-right: 24px;
+}
+.bid{
+    border: none;
+    padding: 20px 20px !important;
+    min-width: 180px !important;
+    border-radius: 5px !important;
+    color: #fff !important;
+    text-align: center !important;
+    background: #0E2542 !important;
+    font-weight: 500 !important;
+    font-size: 15px !important;
+}
+.bid:hover , .buy:hover{
+    background: #000 !important;
+} 
+.pirceNumber{
+    margin-top: 8px;
+    margin-bottom: 24px;
+    display: flex;
+}
+.nested-auction-section{
+    display: flex;
+    justify-content: space-between;
+}
+.diaPrice{
+    font-family: 'Poppins', sans-serif !important;
+    font-style: normal;
+    font-weight: 500!important;
+    font-size: 20px !important;
+    line-height: 25px !important;
+}
+.time{
+    font-family: 'Poppins', sans-serif !important;
+    font-style: normal;
+    font-weight: 500!important;
+    font-size: 20px !important;
+    line-height: 25px !important; 
+    padding-left: 0px;
+    color: #019dea !important;
+}
+.btn-section{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px !important;
+}
+.current-price{
+padding-right: 50px !important;
+}
+.list-section{
+    height: 280px;
+    overflow: overlay; 
+}
+.item-section ::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 10px;               
+  }
+.item-section  ::-webkit-scrollbar-track {
+    background: rgba(62,82,108,1);
+    border-radius: 10px;
+    border: 2px solid #050d1d;     
+  }
+.item-section  ::-webkit-scrollbar-thumb {
+    background: rgba(1,157,234,1);
+    border-radius: 10px;
+    border: 2px solid rgba(1,157,234,1);  
+  }
+  .tab-title{
+    width: 48%;
+    margin-bottom: 50px;
+
+  }
+  .history , .bidss{
+    border-radius: 0;
+    font-size: 16px !important;
+    color: #B1BBD4;
+    padding: 15px 25px !important;
+    font-weight: 500 !important;
+}
+.btnNTAbsSection ,.discription1{
+    display: none !important;
+}
+.Headings-md , .nested-auction-section-md , .createncollection2{
+    display: none !important;
+}
+.social-media-icon2 , .SmbuttonNMAuctionPrice{
+    display: none;
+}
+
+@media screen and (max-width: 1100px) {
+    .social-link{
+        margin-right: 12px !important;  
+    }  
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .item-section {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .create img, .collect img {
+       width: 47px;
+       height: 47px;
+    }.item-section .right-section{
+        padding-left: 20px;
+    }
+    .social-link{
+        margin-right: 6px !important;  
+    }
+    .nested-list img {
+        margin-right: 4px;
+    }
+    .social-link{
+        font-size: 11px !important;
+    }
+    .tab-title {
+        width: 46% !important;
+    }
+}
+@media screen and (max-width: 992px) {
+    .Headings , .nested-auction-section{
+        display: none;
+    }
+.Headings-md , .nested-auction-section-md , .btnNTAbsSection{
+    display: block !important;
+
+}
+.Headings-md h6{
+    font-family: 'Poppins', sans-serif !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 37px;
+    text-align: left;
+    color: #FFFFFF;  
+}
+.createncollection{
+    flex-direction: column;
+}
+
+.btn-section1 , .tabs-section-2 , .discription1{
+    display: block !important;
+}
+.btn-section1{
+    text-align: center;
+}
+.tabs-section , .discription , .btn-section{
+    display: none;
+}
+
+.btnNTAbsSection{
+    flex-direction: column;
+}
+.discription1{
+    font-family: 'Poppins', sans-serif !important;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FBFBFB;
+    margin-bottom: 20px;
+}
+.nested-auction-section-md{
+    display: flex !important;
+    justify-content: center;
+}
+.current-price{
+    display: flex !important;
+    align-items: center !important;
+}
+.curentPri{
+    margin-top: 0px !important;
+    margin-right: 18px;
+}
+.curentPri{
+    font-size: 15px !important;
+     padding-left: 38px;
+     color: #fff;
+}
+.item-section .left-section{
+    width: 60%;
+}
+.item-section .right-section{
+    width: 30%;
+}
+.tab-title {
+    width: 23% !important;
+}
+.list-section{
+    padding-left: 0px !important;
+}
+.tab-title {
+    width: 36% !important;
+}
+
+}
+@media screen and (max-width: 800px) {
+    .item-section .right-section , .social-media-icon{
+     display: none;
+    }
+    .left-section{
+        width: 78% !important;
+        text-align: center;
+    } 
+    .item-main-section{
+        justify-content: center;
+    }
+    .Headings-md h6{
+        text-align: center;
+        font-size: 20px !important;
+    }
+    .inner-imter-section{
+        margin-top: 24px !important;
+    }
+    .createncollection2{
+        display: block !important;
+        display: flex !important;
+        justify-content: space-between;
+    }
+    .createncollection h6, .createncollection2 h6{
+        text-align: start;
+    }
+    .icon-twitter , .icon-facebook , .icon-share{
+     width: 40px;
+     height: 40px;
+     border-radius: 50%;
+     padding: 6px 9px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    margin-right: 16px;
+    }
+    .icon-twitter{
+        background: #019dea;  
+    }
+    .icon-facebook {
+        background: #3B5998; 
+    }
+    .icon-share{
+        background: #4680C2;
+    }
+    .social-media-icon2{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .createdby p{
+        text-align: start;
+    }
+    .tab-section-item {
+        width: 78% !important;
+        margin: auto;
+    }
+    .nested-auction-section-md ,.btn-section1{
+        display: none !important;
+    }
+    .SmbuttonNMAuctionPrice{
+        margin-top: 20px;
+       border-top: 1px solid #3E526C;
+        display: block !important;
+    }
+    .nested-auction-section-sm {
+        display: flex !important;
+    justify-content: space-around !important;
+    padding-top: 20px;
+    margin-bottom: 16px;
+    }
+    .current-price{
+        flex-direction: column;
+        padding-right: 0px !important;
+    }
+    .curentPri{
+        padding:0px !important
+    }
+    .forborder{
+        border-right: 1px solid #3E526C;
+        width: 40%;
+
+    }
+    .curentPri{
+        margin-right: 0px ;
+    }
+    .btn-section2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .buy{
+        margin-right: 0px;
+        margin-bottom: 16px;
+    }
+
+}
+@media screen and (max-width: 768px) {
+.mobile-section-item{
+    display: block !important;
+}
+}
+
+
+@media screen and (max-width: 576px) {
+    .item-section {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .left-section {
+        width: 100% !important;
+    }
+    .tab-section-item {
+        width: 100% !important;
+    
+    }
+    .createncollection a, .createncollection2 a{
+        padding-left: 5px;
+        font-size: 14px;
+    }
+    .forborder {
+       width: 45%;
+    }
+    .tab-title {
+        width: 65% !important;
+    }
+}
+@media screen and (max-width: 400px) {
+    .createncollection a, .createncollection2 a{
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,245 @@
+.discover3{
+  background:#071121 ;
+  
+}
+/* .discover3 .menu-items button{
+  margin:0px 12px;
+  background: #060E1E;
+  border: 1px solid rgba(94,102,125,0.7);
+  font-weight: 400;
+} */
+.menu-items button svg{
+  color: #E4E4E4;
+}
+.headss-1{
+  text-align: left !important;
+}
+th{
+  /* padding:16px 0px !important; */
+  font-size: 15px !important;
+  color: #ECECEC !important;
+  text-align: end !important;
+}
+th {
+  padding-right:0px !important;
+  padding-left:10px !important;
+}
+.chakra-menu__menu-list {
+  background: #060E1E !important;  
+  border: 1px solid rgba(94,102,125,0.7);
+  border-radius: 10px;
+  background: none;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 0px !important;
+}
+.chakra-menu__menuitem{
+  margin: 0px !important;
+  color: #E4E4E4 !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+}
+.chakra-menu__menuitem:hover{
+  background: #7777 !important;
+}
+.menu-items {
+  width: 50% !important;
+}
+.chakra-select__wrapper{
+  margin-right: 10px;
+}
+.chakra-select__wrapper icon{
+  background-color: white !important;
+}
+.chakra-select {
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff; 
+  background-color: none;
+
+}
+.chakra-select__wrapper option{
+  margin:4px 16px !important;
+  color: #E4E4E4;
+  font-weight: 400;
+  font-size: 16px;
+  background: #070F20 !important;
+  height: 12px !important; 
+
+}
+a{
+  text-decoration: none !important;
+}
+.mobile-section {
+  display: none;
+}
+.chakra-select__wrapper option:hover{
+  background: #7777 !important; 
+}
+.chakra-select{
+  background: #071121 !important;
+  
+}
+.selectbox option:hover{
+  border: none !important;
+  color: blue !important;
+}
+
+@media screen and (max-width: 1200px) {
+  .menu-items {
+    width: 100% !important;
+}
+  .chakra-select__wrapper{
+      margin-right: 30px;
+  }
+}
+@media screen and (max-width: 1024px) {
+
+  .heading p {
+      font-size: 15px;
+  }
+  .discover3{
+   padding:0px 50px !important;   
+  }
+  .discover3{
+    padding-bottom: 40px !important;
+  }
+  th {
+     
+      font-size: 13px !important;
+  }
+
+}
+@media screen and (max-width: 900px) {
+  .menu-items {
+    width: 100% !important;
+}
+  .top-seller{
+      text-align: center;
+  font-weight: 500;
+  font-size: 22px;
+  margin-bottom: 24px;
+  color: #fff;
+  }
+  .web-section{
+      display: none;
+  }
+  .select-box{
+      width: 40%;
+      margin:auto;
+  }
+  .mobile-section{
+      display: block !important;
+  }
+  .headss{
+    text-align: end;
+  }
+  .mob-id{
+      padding: 0 10px 0 0;
+  }
+  .select{
+      border:none !important;
+  }
+  .buton{
+      width: 100%;
+      margin: 10px 0px !important;
+  }
+  
+}.discover3{
+  background:#071121 ;
+}
+.discover3 .menu-items button{
+  margin-right: 12px;
+  background: #060E1E;
+  border: 1px solid rgba(94,102,125,0.7);
+}
+.menu-items button svg{
+  color: #E4E4E4;
+}
+th{
+  /* padding:16px 10px !important; */
+  font-size: 12px !important;
+  color: #ECECEC !important;
+  text-align: end !important;
+}
+th td{
+  border-bottom: none !important;
+}
+th.css-1zts0j {
+  border: navajowhite;
+}
+.chakra-menu__menu-list {
+  background: #060E1E !important;  
+  border: 1px solid rgba(94,102,125,0.7);
+  border-radius: 10px;
+  background: none;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 0px !important;
+}
+.chakra-menu__menuitem{
+  margin: 0px !important;
+  color: #E4E4E4 !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+}
+.chakra-menu__menuitem:hover{
+  background: #7777 !important;
+}
+/* .menu-items {
+  width: 50% !important;
+} */
+.chakra-select__wrapper{
+  margin-right: 10px;
+}
+.chakra-select__wrapper icon{
+  background-color: white !important;
+}
+.chakra-select {
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff; 
+  background-color: none;
+
+}
+.chakra-select__wrapper option{
+  margin:4px 16px !important;
+  color: #E4E4E4;
+  font-weight: 400;
+  font-size: 16px;
+  background: #070F20 !important;
+  height: 12px !important; 
+
+}
+a{
+  text-decoration: none !important;
+}
+.mobile-section {
+  display: none;
+}
+.chakra-select__wrapper option:hover{
+  background: #7777 !important; 
+}
+.chakra-select{
+  background: #071121 !important;
+  
+}
+.selectbox option:hover{
+  border: none !important;
+  color: blue !important;
+}
+.discover3 #menu-list-\:r37\: {
+  min-width: 180px !important;
+  margin-left: 2px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .discover3{
+      padding-bottom: 50px !important;
+      
+  }
+}
+
+

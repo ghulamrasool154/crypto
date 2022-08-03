@@ -1,0 +1,52 @@
+ .chakra-text{
+    color: #fff;
+    font-size: 14px;
+    padding-left: 10px;
+    
+    }
+    .heading{
+        width: 60%;
+    }
+ .numbr-section{
+    display: flex;
+    justify-content:start;
+    align-items: center;
+ }
+ .id{
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+ }
+ .volume p , .price p{
+    color: #fff;
+    font-size: 14px;
+ }
+ .hours p{
+   text-align: center;
+    font-size: 14px;
+    color: #F25252;
+ }
+ .days p{
+    font-size: 14px;
+    color: #4F8A60;
+    text-align: center;
+ }
+ .owner p, .assest p{
+    font-size: 14px;
+    color: #C9C9C9;
+    text-align: center;
+ }
+ td{
+    padding:16px 0px !important;
+ }
+ .heading{
+   display: flex;
+   align-items: center;
+ }
+ .heading p{
+   font-size: 18px;
+ } 
+ .iconNPirce{
+   text-align: center;
+   justify-content: center;
+ }

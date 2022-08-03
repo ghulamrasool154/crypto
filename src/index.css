@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  position: relative;
+  padding: 0 !important;
+  margin: 0 !important;
+  font-family: "Poppins", sans-serif !important;
+  background-color: #050d1d !important;
+}
+html {
+  font-family: "Poppins", sans-serif !important;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  outline: none;
+}
+body a:hover,
+body a:focus {
+  color: initial;
+  text-decoration: none;
+}
+a:focus {
+  outline: none;
+  text-decoration: none;
+}
+textarea:focus {
+  outline: none;
+}
+select:focus {
+  outline: none;
+}
+input {
+  outline: none !important;
+}
+button,
+button:focus {
+  outline: none;
+}
+a img {
+  border: none;
+}
+img {
+  border: 0;
+}
+p {
+  padding: 0;
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+ul,
+p {
+  padding: 0;
+  margin: 0;
+}
+textarea {
+  resize: none;
+}
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #fff;
+}
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+  color: #fff;
+}
+
+/* global responseiv css */
+.popularCollection {
+  padding: 100px 0 !important;
+}
+.bannerSec {
+  padding: 100px 0 0 0 ;
+}
+
+@media screen and (max-width: 1200px) {
+
+  h2.chakra-heading.css-1dklj6k.text-center-class-cutom {
+    margin-top: 20px !important;
+  }
+  .lastheading,
+  .popularheading,
+  .lastheading,
+  .text-center-class-cutom {
+    text-align: center;
+    font-size: 25px !important;
+  }
+  .bannerSec{
+    padding: 50px 30px 0 30px !important;
+  }
+  .popularCollection {
+    padding: 0 50px !important;
+  }
+}
+@media screen and (max-width: 993px) {
+  .popularCollection {
+    width: 90% !important;
+    padding: 0 0 !important;
+  }
+
+}
+@media screen and (max-width: 768px) {
+  .bannerSec{
+    width: 100% !important;
+      padding: 50px 30px 0 30px !important;
+    
+  }
+  h2.chakra-heading.css-1dklj6k.text-center-class-cutom {
+    margin-top: 0 !important;
+  }
+    .popularCollection {
+    width: 100% !important;
+    padding: 0 30px !important;
+  }
+}

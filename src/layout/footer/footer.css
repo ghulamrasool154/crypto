@@ -1,0 +1,163 @@
+footer {
+    padding: 70px 0;
+    background: rgba(10,31,58,0.5);
+}
+
+
+.titlefooter{
+    font-weight: 600;
+    font-size: 14px !important;
+    color: #fff;
+    margin: 0 0 20px !important;
+}
+
+
+footer .logosection.css-0{
+    width: 30%;
+    padding:  0 80px 0 0;
+}
+footer .footerrightsidewrapper{
+    width: 70%;
+    padding-left: 150px;
+}
+
+
+footer ul{
+    margin-left: 0 !important;
+
+}
+
+footer ul li{
+    list-style: none;
+}
+footer li {
+    margin: 0 0 14px;
+}
+footer li a{
+    font-size: 14px;
+    color: #E5F0FF;
+}
+
+
+
+footer .logosection .list li {
+    margin: 0 7px 0 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+footer .logosection .list li a{
+    display: flex;
+    width: 36px;
+    height: 36px;
+    background: #0a1f3a;
+    border-radius: 60px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+footer .logosection .list li a:hover{
+    background-color: #019dea;
+}
+
+footer a:visited{
+    color: #E5F0FF;
+
+}
+
+footer a:hover{
+    color: #019dea;
+}
+
+footer .logosection p {
+    margin: 22px 0 37px;
+    color: #AAB0C0;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+footer .chakra-text{
+    padding-left: 0;
+}
+
+@media screen and (max-width: 1200px) {
+    
+    .chakra-container.footer{
+      padding: 0 50px;
+    }
+ 
+    .chakra-container.footer    .row{
+        flex-direction: column;
+    }
+    .footerrightsidewrapper.css-gg4vpm,
+    footer .logosection.css-0{
+        width: 100%;
+    }
+    footer .footerrightsidewrapper{
+        padding-left: 0;
+    }
+    /* .logosection.css-0 {
+        order: 2;
+    } */
+    
+    footer .logosection{
+        order: 2;
+       
+    }
+    footer .logosection p{
+        max-width: 80%;
+        margin: 0;
+    }
+    footer .logosection.css-0{
+        padding: 40px  80px  0 0;
+        display: flex;
+        justify-content: start;
+        align-items: center
+    }
+
+}
+
+@media screen and (max-width: 993px) {
+    .chakra-container.footer{
+      width: 90%;
+      padding: 0 30px;
+    }
+    footer .logosection.css-0{
+        padding: 40px 0 0 0;
+    }
+
+    .logosection .footlogocntSec{
+        width: 50%;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .footerrightsidewrapper.css-gg4vpm {
+        display: none;
+    }
+    .joincommunity.css-0,
+    .logosection .footlogocntSec{
+        width: 100%;
+        text-align: center;
+    }
+    footer .logosection p{
+        max-width: 100%  !important;
+        margin: 15px 0;
+    }
+    .logoimg{
+        margin: auto;
+    }
+    footer .logosection.css-0{
+        padding: 0;
+        flex-direction: column;
+    }
+    .chakra-container.footer{
+      width: 100%;
+    }
+    footer{
+        padding: 30px 0 40px;
+    }
+}

@@ -1,0 +1,28 @@
+.chakra-container.liveaction{
+  padding: 100px 0;
+}
+@media screen and (max-width: 1200px) {
+  .lastheading{
+    font-size: 25px !important;
+  }
+    .chakra-container.liveaction  {
+      padding: 0 50px;
+      text-align: center;
+    }
+  }
+  
+  @media screen and (max-width: 993px) {
+    .chakra-container.liveaction  {
+      width: 90%;
+      padding: 0 0;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .chakra-container.liveaction  {
+      width: 100%;
+      padding: 0 30px;
+    }
+   
+  }
+  

@@ -1,0 +1,80 @@
+
+.top-one-sec , .top-two-sec ,.top-three-sec {
+    display: flex;
+    width: 32%;
+    display: flex;
+align-items: center;
+justify-content: space-between;
+
+border-bottom: 0.5px solid #3E526C;
+padding:12px 0px;
+}
+.selling-icon{
+    display: flex;
+}
+.pirce-seller{
+    font-size: 14px;
+    color: #019DEA; 
+}
+.selling-icon span{
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+}
+.selling-section{
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.sel-id{
+    padding-right: 10px;
+}
+.sel-iamge{
+        margin-right: 10px !important;
+}
+.sel-head{
+    padding-left: 0px;
+    margin-bottom: 10px;
+}
+.sel-item{
+    display: flex;
+    align-items: center;
+}
+.selling-icon img{
+    margin-right: 5px;
+}
+.selling-section-1200{
+    display: none !important;
+}
+
+@media screen and (max-width: 1200px){
+    .selling-section{
+        display: none !important;
+    }
+    .selling-section-1200{
+        display: block !important;
+        display: flex !important;
+        justify-content: space-between;
+    }
+    .top-one-sec, .top-two-sec  {
+      
+        width: 48%  !important;
+     
+    } 
+  
+}
+@media screen and (max-width: 800px){
+    /* .selling-section-1200{
+        display: none !important;
+    } */
+    .selling-section-1200{
+        display: block !important;
+        display: flex !important;
+        justify-content: space-between;
+        flex-direction: column;
+    } 
+    .top-one-sec, .top-two-sec  {
+      
+        width: 100%  !important;
+     
+    } 
+}

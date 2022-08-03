@@ -1,0 +1,31 @@
+.lastslider .aboutitemcnt {
+    background-color: #0a1f3a;
+}
+.lastslider .aboutitemcnt {
+    display: flex;
+    padding: 20px;
+}
+
+.lastslider .aboutitemcnt img {
+    max-width: 15px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.lastslider .aboutitemcnt strong {
+    font-weight: 400;
+}
+
+.lastslider .textwhitecolor {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 0 0 15px;
+}
+
+.lastslider .textwhitecolor.heart{
+    text-align: end;
+}
+
+.lastslider .chakra-text{
+    padding-left: 0;
+}

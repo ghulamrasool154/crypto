@@ -1,0 +1,31 @@
+
+.circlebg1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+.circlebg2 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 30px;
+  z-index: -1;
+  margin: auto;
+  text-align: center;
+}
+.circlebg3 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+@media screen  and (max-width : 768px){
+  .circlebg1,
+  .circlebg2,
+  .circlebg3{
+    display: none;
+  }
+  
+}

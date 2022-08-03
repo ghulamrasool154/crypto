@@ -1,0 +1,98 @@
+.sellsnfts {
+  font-weight: 500 !important;
+  font-size: 30px !important;
+  color: #fff;
+  margin-bottom: 1.5rem;
+}
+
+.Sellsnfts .columnBox {
+  width: 25%;
+}
+
+.createsell .createsellHead {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  padding: 0 0 20px;
+}
+.createsell .creatsellicon {
+  padding: 0 15px 0 0;
+  height: 70px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+.createsellHead .create-title {
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.createsell .createsellDisc {
+  font-size: 14px;
+  line-height: 21px;
+  color: #b1bbd4;
+}
+
+.Sellsnfts .columnBox:nth-child(1),
+.Sellsnfts .columnBox:nth-child(4) {
+  margin: 0 0;
+}
+
+.Sellsnfts .columnBox {
+  width: 25%;
+  margin: 0 12px;
+}
+.chakra-container.Sellsnfts.css-9atsve{
+  padding-bottom: 50px;
+}
+
+@media screen and (max-width: 1200px) {
+  .sellsnfts.text-center-class-cutom{
+    font-size: 25px !important;
+    text-align: center;
+  }
+  .Sellsnfts {
+    padding: 0 50px !important;
+    padding-bottom: 50px !important;
+  }
+  .sellsnfts-row {
+    flex-wrap: wrap;
+  }
+
+  .Sellsnfts .columnBox:nth-child(1),
+  .Sellsnfts .columnBox:nth-child(4) {
+    margin: 0 12px;
+  }
+  .Sellsnfts .columnBox {
+    width: 46%;
+  }
+  .Sellsnfts .columnBox:nth-child(1), .Sellsnfts .columnBox:nth-child(2) {
+    border-bottom: 0.5px solid #3e526c;
+    padding: 10px 0 20px;
+}
+}
+
+@media screen and (max-width: 993px) {
+  .Sellsnfts {
+    width: 90% !important;
+    padding: 0 0 !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Sellsnfts {
+    width: 100% !important;
+    padding: 0 30px !important;
+  }
+  .Sellsnfts .columnBox{
+    width: 100%;
+  }
+  .createsell .createsellHead{
+    flex-direction: column;
+  }
+  .createsell .createsellDisc{
+    text-align: center;
+  }
+}
