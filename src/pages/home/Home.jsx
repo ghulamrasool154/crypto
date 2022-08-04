@@ -9,6 +9,7 @@ import Popularcollection from "../../components/popularcollection/Popularcollect
 import LastAdded from "../../components/LastAdded/LastAdded";
 import LiveAuction from "../../components/LiveAuction/LiveAuction";
 import Sellsnfts from "../../components/sellsnfts/Sellsnfts";
+import TopSeller from "../../components/topselller/TopSelller";
 const Home = () => {
   return (
     <Box className="home">
@@ -25,6 +26,9 @@ const Home = () => {
       <Popularcollection />
       <LastAdded/>
       <LiveAuction/>
+      <Container className="top--seller-home-section" maxW={'1180px'}>
+        <TopSeller/>
+      </Container>
       <Sellsnfts/>
     </Box>
   );

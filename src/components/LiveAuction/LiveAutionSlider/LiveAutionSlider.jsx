@@ -39,9 +39,9 @@ const LiveAutionSlider = () => {
   return (
     <div className="liveSlider">
       <Slider {...settings}>
-        {ApiList.map((element) => {
+        {ApiList.map((element, index) => {
           return (
-            <Box className="aboutitem" borderRadius={"10px"}>
+            <Box className="aboutitem" key={index} borderRadius={"10px"}>
               <Box className="img-section-top">
                 <Image src={previewiamge} alt="img" />
               </Box>

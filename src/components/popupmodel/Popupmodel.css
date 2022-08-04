@@ -1,0 +1,71 @@
+@media screen and (max-width: 768px) {
+  .popup--filter--modal--dialog {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #050d1d;
+  }
+  img.close--icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  .popup--modal--content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 400px;
+    margin: auto;
+  }
+  .popup--modal--content .popup--modal--body {
+    width: 100%;
+  }
+  .popup--modal--body .authors--days,
+  .popup--modal--body .authors--category,
+  .popup--modal--body .authors--chain {
+    width: 100%;
+  }
+  .popup--modal--body .authors--category {
+    margin: 15px 0;
+  }
+  .popup--modal--body .authors--chain select,
+  .popup--modal--body .authors--category select,
+  .popup--modal--body .authors--days select {
+    border: 1px solid rgba(94, 102, 125, 0.7);
+    height: auto;
+    padding: 10px 20px;
+  }
+  .popup--modal--body .modal--bottom {
+    margin-top: 30px;
+  }
+  .popup--modal--body .modal--bottom .authors--filter--button {
+    max-width: 100%;
+    margin: 15px 0;
+  }
+  .popup--modal--body .modal--bottom .authors--filter--button:nth-child(2) {
+    background-color: #0e2542;
+  }
+
+  .row--authors--popup {
+    display: block !important;
+    padding-bottom: 50px;
+  }
+
+  .row--authors--popup .authors--filter--button {
+    display: flex;
+    width: 100%;
+    max-width: 70%;
+    margin: auto;
+    background: #019dea;
+    font-weight: 500;
+    color: #fff;
+  }
+  .row--authors--popup .row--authors--page--buttonn:hover {
+    background-color: #000;
+  }
+}

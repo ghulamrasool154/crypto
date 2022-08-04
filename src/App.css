@@ -15,49 +15,52 @@ h2.page-title {
   letter-spacing: 2px;
 }
 
-.discover3{
+.discover3 {
   padding: 50px 0;
 }
 .create-page {
   padding: 50px 0;
 }
+.chakra-select__icon-wrapper.css-zj2dqk {
+  color: white;
+}
 
 .creators,
-.aboutitem{
-  border-radius: 10px ;
+.aboutitem {
+  border-radius: 10px;
   overflow: hidden;
 }
 @media screen and (max-width: 1200px) {
-  
-  
+  .top--seller-home-section {
+    padding: 30px 50px !important;
+  }
   .head-cont {
     padding: 25px 50px 0px 50px !important;
   }
+
   .create-page {
-      width: 90% !important;
-  
+    width: 90% !important;
   }
 }
 
 @media screen and (max-width: 993px) {
- 
   .head-cont {
     width: 90% !important;
     padding: 25px 0 0 0 !important;
   }
 }
 @media screen and (max-width: 768px) {
-.create-page {
-  width: 100%;
-  padding: 50px 30px !important;
-}
+  .create-page {
+    width: 100%;
+    padding: 50px 30px !important;
+  }
   .head-cont {
     width: 100% !important;
     padding: 15px 30px 15px 30px !important;
     box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
   }
   .head-cont .loginWallet,
-  .head-cont .searchform{
+  .head-cont .searchform {
     display: none;
   }
 }

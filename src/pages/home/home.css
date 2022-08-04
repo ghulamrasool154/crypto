@@ -21,6 +21,24 @@
   z-index: -1;
 }
 
+
+@media screen  and (max-width : 1200px){
+  .top--seller-home-section .seller-tablist{
+    padding-top: 10px !important;
+  }
+  .top--seller-home-section .topseller-heading{
+    text-align: center !important;
+  }
+  
+
+}
+@media screen  and (max-width : 993px){
+  .top--seller-home-section {
+    width: 90% !important;
+    padding: 0px !important;
+  }
+  
+}
 @media screen  and (max-width : 768px){
   .circlebg1,
   .circlebg2,

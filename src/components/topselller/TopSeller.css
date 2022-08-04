@@ -1,0 +1,47 @@
+.seller-tablist {
+  border-bottom: 0px !important;
+  padding-top: 48px;
+}
+.tops-sellers {
+  background-color: #050d1d;
+}
+.topseller-heading {
+  font-family: "Poppins", sans-serif !important;
+
+  font-weight: 500 !important;
+  font-size: 30px !important;
+  color: #fff !important;
+  margin-bottom: 24px !important;
+}
+.selling-tab-panel {
+  padding: 16px 0px !important;
+}
+.css-c2k196[aria-selected="true"],
+.css-c2k196[data-selected] {
+  background: #0e2542;
+  color: #fff !important;
+  border-color: #1f487c #1f487c #1f487c !important;
+}
+.tops-sellers .chakra-tabs__tab {
+  padding: 15px 25px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #e5f0ff;
+  text-align: center;
+  margin: 0 20px 0 0;
+  border: none;
+  border-radius: 5px;
+}
+@media screen and (max-width: 768px) {
+  .tops-sellers {
+    display: none !important;
+  }
+  .tops-sellers .chakra-tabs__tab {
+    padding: 15px 15px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .tops-sellers .chakra-tabs__tab {
+    padding: 15px 10px;
+  }
+}

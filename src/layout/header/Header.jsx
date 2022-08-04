@@ -29,14 +29,14 @@ import wallet from "../../assets/images/walleticon.svg";
 import user from "../../assets/images/usericon.svg";
 import { NavLink } from "react-router-dom";
 import searchicon from "../../assets/images/searchicon.svg";
-import burgericon from '../../assets/images/burgericon.PNG'
-import closemenuicon from '../../assets/images/closemenu.PNG'
+import burgericon from "../../assets/images/burgericon.PNG";
+import closemenuicon from "../../assets/images/closemenu.PNG";
 
 const Header = () => {
-  const [menuToggle, setMenuToggle]=useState(false)
-  const toggleMenuSet = ()=>{
-    setMenuToggle(!menuToggle)
-  }
+  const [menuToggle, setMenuToggle] = useState(false);
+  const toggleMenuSet = () => {
+    setMenuToggle(!menuToggle);
+  };
   return (
     <>
       <header className="header-section">
@@ -58,11 +58,10 @@ const Header = () => {
                 </form>
               </Box>
               <Box className="nav-bar-custom">
-
                 <ul>
                   <li>
                     <NavLink to="/" className="nav-custom-link">
-                    Homepage
+                      Homepage
                     </NavLink>
                   </li>
                   <li>
@@ -85,24 +84,24 @@ const Header = () => {
                   </li>
                   <li>
                     {" "}
-                    <NavLink to="activity" className="nav-custom-link">
-                      Activity
+                    <NavLink to="collection" className="nav-custom-link">
+                      collection
                     </NavLink>
                   </li>
 
                   <li>
                     {" "}
-                    <NavLink to="page" className="nav-custom-link">
-                      Pages
+                    <NavLink to="authors-page" className="nav-custom-link">
+                      Authors
                     </NavLink>
                   </li>
-                
                 </ul>
               </Box>
-              <Box className="responsive-menu-setting-button" onClick={toggleMenuSet}>
-                
-                <Image src={menuToggle ? closemenuicon : burgericon } ></Image>
-
+              <Box
+                className="responsive-menu-setting-button"
+                onClick={toggleMenuSet}
+              >
+                <Image src={menuToggle ? closemenuicon : burgericon}></Image>
               </Box>
               <Box className="loginWallet ">
                 <a href="" className="user">
@@ -113,50 +112,48 @@ const Header = () => {
                 </a>
               </Box>
 
-{
-  menuToggle  && <Box className="responsive-menu-header">
-                <ul>
-                  <li>
-                    <NavLink to="/" className="nav-custom-link">
-                    Homepage
-                    </NavLink>
-                  </li>
-                  <li>
-                    {" "}
-                    <NavLink to="create" className="nav-custom-link">
-                      Create
-                    </NavLink>
-                  </li>
-                  <li>
-                    {" "}
-                    <NavLink to="discover" className="nav-custom-link">
-                      Discover
-                    </NavLink>
-                  </li>
-                  <li>
-                    {" "}
-                    <NavLink to="itemstyle" className="nav-custom-link">
-                      itemstyle
-                    </NavLink>
-                  </li>
-                  <li>
-                    {" "}
-                    <NavLink to="activity" className="nav-custom-link">
-                      Activity
-                    </NavLink>
-                  </li>
+              {menuToggle && (
+                <Box className="responsive-menu-header">
+                  <ul>
+                    <li>
+                      <NavLink to="/" className="nav-custom-link">
+                        Homepage
+                      </NavLink>
+                    </li>
+                    <li>
+                      {" "}
+                      <NavLink to="create" className="nav-custom-link">
+                        Create
+                      </NavLink>
+                    </li>
+                    <li>
+                      {" "}
+                      <NavLink to="discover" className="nav-custom-link">
+                        Discover
+                      </NavLink>
+                    </li>
+                    <li>
+                      {" "}
+                      <NavLink to="itemstyle" className="nav-custom-link">
+                        itemstyle
+                      </NavLink>
+                    </li>
+                    <li>
+                      {" "}
+                      <NavLink to="collection" className="nav-custom-link">
+                        collection
+                      </NavLink>
+                    </li>
 
-                  <li>
-                    {" "}
-                    <NavLink to="page" className="nav-custom-link">
-                      Pages
-                    </NavLink>
-                  </li>
-                
-                </ul>
-              </Box>
-
-              }
+                    <li>
+                      {" "}
+                      <NavLink to="authors-page" className="nav-custom-link">
+                        Authors-Page
+                      </NavLink>
+                    </li>
+                  </ul>
+                </Box>
+              )}
             </Box>
           </Flex>
         </Container>

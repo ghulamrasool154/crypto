@@ -1,0 +1,21 @@
+.title--page-common {
+  font-weight: 500 !important;
+  font-size: 30px;
+  color: #fff;
+  font-family: "poppins", sans-serif !important;
+  line-height: inherit;
+}
+
+@media screen and (max-width: 1200px) {
+  .title--page-common {
+    font-size: 25px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+    .title--page-common {
+      font-size: 20px;
+    }
+  }
+  
