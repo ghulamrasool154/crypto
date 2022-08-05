@@ -1,0 +1,213 @@
+.faq--bg--img {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.faq--tabss--wrapper {
+  display: flex !important;
+}
+
+.faq--page--tabs--menu {
+  margin: 0 0 40px;
+  max-height: 690px;
+  overflow: auto;
+  width: 100%;
+  max-width: 300px;
+  display: block;
+}
+
+.faq--page--tabs--menu .faq--tabs--menu-vertical {
+  flex-direction: column !important;
+}
+
+.faq--page--tabs--menu::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 10px;
+}
+.faq--page--tabs--menu::-webkit-scrollbar-thumb {
+  background: rgba(1, 157, 234, 1);
+  border-radius: 10px;
+  border: 2px solid rgba(1, 157, 234, 1);
+  background-color: rgba(1, 157, 234, 1);
+}
+.faq--page--tabs--menu::-webkit-scrollbar-track {
+  background: rgba(62, 82, 108, 1);
+  border-radius: 10px;
+  border: 2px solid #050d1d;
+}
+
+.faq--tabs--menu-vertical li {
+  border-bottom: 0.5px solid rgba(154, 154, 154, 0.5);
+  margin-right: 70px;
+}
+
+.faq--tabs--menu-vertical button:focus-visible {
+  box-shadow: none;
+}
+.faq--tabs--menu-vertical button {
+  border: none !important;
+  outline: none;
+}
+.faq--tabs--menu-vertical button:focus {
+  border: none !important;
+}
+.faq--tabs--menu-vertical button {
+  transition: 0.5s;
+  padding: 25px !important;
+  background: transparent !important;
+  border-radius: 10px !important;
+  margin: 15px 0 !important;
+  font-family: Poppins;
+  font-style: normal;
+  font-size: 15px !important;
+  line-height: 21px !important;
+  color: #ffffff !important;
+  text-align: left !important;
+  position: relative;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+  width: 100%;
+}
+
+.faq--tabs--menu-vertical button::after {
+  transition: 0.5s;
+  opacity: 0;
+  content: "";
+  width: 51px;
+  height: 100%;
+  background: url("../../assets/images/que-angle.svg") no-repeat center center;
+  position: absolute;
+  right: -50px;
+  top: 0;
+}
+.faq--tabs--menu-vertical button[aria-selected="true"]:after {
+  transition: 0.5s;
+  opacity: 1;
+}
+
+.faq--tabs--menu-vertical .css-c2k196[aria-selected="true"],
+.css-c2k196[data-selected],
+.faq--tabs--menu-vertical .css-c2k196:active,
+.css-c2k196[data-active] {
+  background-color: #0a1f3a80 !important;
+  border: none;
+}
+
+/* disctpion */
+
+.faq--page--tabs--discription {
+  width: 100%;
+  max-width: calc(100% - 310px);
+  padding-left: 100px;
+  transition: opacity 0.15s linear;
+}
+.faq--page--tabs--discription .discription--title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 37px;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+.faq--page--tabs--discription .chakra-tabs__tab-panels {
+  margin-top: 0 !important;
+}
+.faq--page--tabs--discription .chakra-tabs__tab-panels .discription-body {
+  padding-top: 0;
+}
+
+.faq--page--tabs--discription .discription--text {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 27px;
+  text-align: justify;
+  color: #aab0c0;
+  padding-bottom: 30px;
+}
+
+.faq--page {
+  padding: 50px 0;
+}
+.faq--page .faq--page--row {
+  padding-top: 50px;
+}
+.faq--page--accodion {
+  display: none !important;
+}
+
+
+
+@media (max-width: 1200px) {
+  .faq--page--tabs--discription {
+    padding-left: 50px;
+  }
+  .faq--tabs--menu-vertical button {
+    padding: 15px 20px !important;
+  }
+
+  .faq--page {
+    padding: 50px 50px !important;
+  }
+}
+
+@media screen and (max-width: 993px) {
+  .faq--page {
+    width: 90% !important;
+    padding: 50px 0 !important;
+  }
+  .faq--page .faq--page--row {
+    display: none;
+  }
+  .faq--page--accodion {
+    display: block !important;
+  }
+  .custom--accodion--item button {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #ffffff;
+    background-color: transparent !important;
+    padding: 25px 0;
+  }
+  .custom--accodion--item {
+    border-top-width: 0 !important;
+    border-bottom: 0.5px solid rgba(154, 154, 154, 0.3) !important;
+  }
+  .custom--accodion--item .accodion--disc--body {
+    padding: 0;
+  }
+  .accodion--disc--body .accodition--title {
+    font-size: 16px;
+
+    margin: 10px 0;
+    font-weight: 600;
+    font-family: Poppins;
+    font-style: normal;
+    line-height: 37px;
+    color: #ffffff;
+    margin-top: 0 !important;
+  }
+  .accodion--disc--body .accodition--text {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 27px;
+    text-align: justify;
+    color: #aab0c0;
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .faq--bg--img {
+    display: none;
+  }
+}

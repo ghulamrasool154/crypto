@@ -10,8 +10,12 @@ import LastAdded from "../../components/LastAdded/LastAdded";
 import LiveAuction from "../../components/LiveAuction/LiveAuction";
 import Sellsnfts from "../../components/sellsnfts/Sellsnfts";
 import TopSeller from "../../components/topselller/TopSelller";
+import Titlebartags from '../../components/titlebarTags/Titlebartags'
 const Home = () => {
   return (
+    <>
+    <Titlebartags title='CryptoN : Home'/>
+    
     <Box className="home">
       <Box className="circlebg1">
         <Image src={imgcircle1} />
@@ -31,6 +35,7 @@ const Home = () => {
       </Container>
       <Sellsnfts/>
     </Box>
+    </>
   );
 };
 

@@ -27,6 +27,7 @@ import {
 } from "@chakra-ui/react";
 import { ChevronDownIcon } from "@chakra-ui/icons";
 import "./Discover3.css";
+import Titlebartags from "../../components/titlebarTags/Titlebartags";
 const Discover3 = () => {
   const [table, setTable] = useState([
     {
@@ -195,6 +196,7 @@ const Discover3 = () => {
   ]);
   return (
     <>
+    <Titlebartags title='CryptoN : Discover '/>
       <section className="discover3">
         <Container maxW="1180px">
           <Box className="web-section">

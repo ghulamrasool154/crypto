@@ -25,6 +25,12 @@ h2.page-title {
   color: white;
 }
 
+.chakra-menu__menuitem:focus{
+  background: #060E1E !important;
+  border: none;
+  }
+
+  
 .creators,
 .aboutitem {
   border-radius: 10px;

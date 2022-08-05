@@ -24,6 +24,7 @@ import { Link } from "react-router-dom";
 import singleimg from "../../assets/images/single.svg";
 import multiimg from "../../assets/images/multiple.svg";
 import uploadimg from "../../assets/images/upload-icon.svg";
+import Titlebartags from "../../components/titlebarTags/Titlebartags";
 
 const Create = () => {
   const [file, setFile] = useState("");
@@ -55,6 +56,8 @@ const Create = () => {
   });
 
   return (
+    <>
+    <Titlebartags title='CryptoN : Create'/>
     <Container maxW="1180px"  className="create-page">
       <Flex className="row">
         <Box className="colum-left">
@@ -206,6 +209,7 @@ const Create = () => {
         </Box>
       </Flex>
     </Container>
+    </>
   );
 };
 

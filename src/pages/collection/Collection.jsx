@@ -27,6 +27,7 @@ import authorImg from "../../assets/images/authoreitemimg01.png";
 import priceicon from "../../assets/images/priceicon.svg";
 import hearticon from "../../assets/images/hearticon.svg";
 import autprobanner from "../../assets/images/authprobannersm01.png";
+import Titlebartags from "../../components/titlebarTags/Titlebartags";
 const Collection = () => {
   const [itemSection, setItemSection] = useState([
     {
@@ -70,6 +71,7 @@ const Collection = () => {
 
   return (
     <>
+    <Titlebartags title='CryptoN : Collection '/>
       <section className="collection-page">
         <Container pt={12} maxW="1180px" className="collection-page-all">
           <Box className="banner-collection">

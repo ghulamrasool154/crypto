@@ -1,0 +1,339 @@
+.discover2-page {
+    background: #050D1D;
+}
+.Discover2-heading h2{
+    font-family: 'Poppins', sans-serif !important;
+
+    font-weight: 500 !important;
+    font-size: 30px !important;
+    color: #fff !important;
+
+    margin-bottom: 24px !important;
+}
+.catrgoryNbuttons{
+    display: flex;
+    justify-content: space-between; 
+    padding-bottom: 24px !important;
+    border-bottom: 0.5px solid #3E526C;
+    
+}
+
+.discover2-left-section  , .discover2-left-section{
+    width: 50% !important;
+    display: flex !important;
+    justify-content: space-between !important;
+  
+}
+.discover2-right-section{
+    display: flex;
+    width: 50%;
+    justify-content: end;
+}
+.discover-menu-upper{
+    width: 32% !important;
+}
+.discover-2-buttons{
+    padding: 10px 20px !important;
+    margin: 0 17px 10px 0 !important;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    color: #F1DFDF !important; 
+    border: none !important;
+    border-radius: 5px !important;
+    text-align: center !important;
+    background: #0E2542 !important;
+}
+.close{
+    background: #019DEA  !important; 
+    margin-right: 0px !important;
+}
+.discover-2-buttons:hover{
+background:#000 !important;
+}
+
+
+
+
+
+
+
+.discover2-page .menu1 , .menu2 , .menu3 , .menu4{
+    width:32% !important;
+}
+.collection-detail-main{
+    text-align: center;
+    margin-top: 30px;
+}
+.collection-result{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin: 40px auto 0;
+    max-width: 620px;  
+}
+.collection-result ul{
+    background: rgba(10,31,58,0.3);
+    border-radius: 20px;
+    padding: 20px;
+}
+.result-collection {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px !important;
+    color: #B1BBD4;
+    display: block;
+}
+.list-result , .list-result-last{
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    border-right: 0.5px solid #3E526C;
+    padding: 0 23px; 
+}
+.list-result strong , .list-result-last strong{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500 !important;
+    font-size: 20px !important;
+    color: #FFFFFF !important;
+    display: flex;
+}
+.list-result-last{
+    border-right: none !important;
+}
+.button-tab{
+    font-family: 'Poppins', sans-serif;
+  background: #050D1D !important;
+    border: 1px solid rgba(94,102,125,0.7) !important;
+    border-radius: 10px;
+    background: none;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    color: #fff;
+    padding: 10px 20px !important;
+    width:100%;
+    text-align: left;
+}
+.discover2-page  .tabs{
+    justify-content: space-between !important;
+    flex-wrap: wrap;
+    width: 78% !important;
+   
+}
+.four-tabs-collection{
+    margin-top: 24px;
+}
+.title-item{
+    font-family: 'Poppins', sans-serif;
+    color: #B1BBD4;
+    font-size: 12px !important;
+    margin: 0 0 10px;   
+}
+.title-code--{
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+}
+.price-items--{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px !important;
+    color: #B1BBD4;
+    margin: 0 0 10px;
+
+}
+.pirce-strong-val{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    display: flex;
+    vertical-align: middle;
+    color: #FFFFFF;
+    margin: 0 0 15px;
+}
+.pirce-strong-val img , .heart-cion img{
+margin-right: 8px !important;
+}
+.heart-cion img{
+    width: 15px !important;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 5px 0 0;
+}
+.heart-cion{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px !important;
+    color: #B1BBD4;
+}
+.aboutItem-collecton-box{
+    width: 24%;
+    margin-bottom: 24px;
+    border-radius: 10px !important;
+    overflow: hidden;
+}
+.aboutItemData{
+    display: flex !important;
+    justify-content: space-between;
+    padding: 20px;
+    background: #0A1F3A;
+   
+
+}
+.aboutItem-Collections{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+.itemTitlePrice{
+    text-align: end;
+}
+.priceicon00{
+    margin-right: 6px;
+}
+.coll-social-icon2 , .tab-version-photo{
+    display: none !important;
+}
+.discover2-rankinglightbg {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+@media screen and (max-width: 1200px) {
+    .collection-page-all{
+        padding-left: 50px !important;
+        padding-right: 50px !important;
+    }
+    .discover2-page .tabs{
+        width: 100% !important;
+        flex-wrap: nowrap;
+        align-items:center !important;
+    }
+    .discover2-left-section{
+        order:2;
+    }
+    .discover2-page .menu3{
+        margin-top: 0px !important;
+    }
+   
+    .discover2-left-section, .discover2-right-section{
+        width: 100% !important;
+    }
+    .catrgoryNbuttons{
+        flex-direction: column;
+    }
+   
+    .aboutItem-collecton-box{
+        width: 48%;
+    }
+    .aurImg{
+        width: 100% !important;
+        height: auto;
+    }
+    .discover2-right-section{
+        display: flex;
+        justify-content: space-between;
+    }
+    .Discover2-heading h2{
+        font-size: 20px !important;
+    }
+  
+.filter-btn{
+    display: none;
+}
+}
+
+@media screen and (max-width: 993px) {
+    .ban-bottom-img {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: -50px auto;
+        display: table;
+        width: 80px;
+    }
+    .banner-collection{
+        width: 90%;
+    padding: 0px;
+    margin: auto;
+    }
+
+    .list-result strong, .list-result-last strong{
+        justify-content: center;
+    }
+    .collection-result{
+       max-width: 100%;
+    }
+    .collection-result ul{
+        display: flex;
+        justify-content: space-between;
+        width: 100% !important;
+        margin-left: 0px !important;
+    }
+    .collection-result ul li{
+        width: 25%;
+        padding: 0 12px !important;
+    }
+}
+@media screen and (max-width: 768px) {
+    .filter-btn{
+        display: block !important;
+    padding-bottom: 20px;
+    }
+    .discover2-filter-btn{
+        font-family: 'Poppins', sans-serif !important;
+
+        background: #019DEA !important;
+    font-weight: 500 !important;
+    font-size: 15px !important;
+    width: 100% !important;
+    color: #fff;
+    }
+    .Discover2-heading h2{
+        text-align: center;
+    }
+  
+    .coll-social-icon , .web-verion-photo , .catrgoryNbuttons {
+        display: none !important;
+    }
+   .tab-version-photo{
+        display: block !important;
+    }
+  
+    .discover2-page{
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
+  
+
+    .collection-result ul{
+        flex-wrap: wrap;
+        padding:10px !important
+    }
+    .collection-result{
+        padding: 0 15px;
+    }
+    .aboutItem-collecton-box{
+        width: 100%;
+    }
+ .four-tabs-collection   .tabs{
+    display: none;
+ }
+ .collection-result ul li{
+    width: 50%;
+    border: none;
+    padding: 15px 3px !important;
+ }
+ .tab-version-photo{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+ }
+   
+}
+@media screen and (max-width: 500px) {
+    .collection-detail-main {
+        text-align: center;
+        margin-top: 45px;
+    }
+}

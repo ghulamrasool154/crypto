@@ -38,6 +38,7 @@ import createImg from "../../assets/images/tableimg.png";
 import diaImag from "../../assets/images/diamongicon.svg";
 import LastAdded from "../../components/LastAdded/LastAdded";
 import Popularcollection from "../../components/popularcollection/Popularcollection";
+import Titlebartags from "../../components/titlebarTags/Titlebartags";
 const ItemDetail = () => {
   const [secondTable, setScondTable] = useState([
     {
@@ -107,6 +108,8 @@ const ItemDetail = () => {
   ]);
   return (
     <>
+    <Titlebartags title='CryptoN : Itemstyle '/>
+
       <section className="item-section">
         <Container maxW="1180px">
           <Flex className="row item-main-section">

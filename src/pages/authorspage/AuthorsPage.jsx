@@ -16,6 +16,7 @@ import icon from "../../assets/images/priceicon.svg";
 import discoverbluebrightbg from "../../assets/images/discoverbluebrightbg.svg";
 import rankinghighlight from "../../assets/images/rankinglightbg.svg";
 import Popupmodel from "../../components/popupmodel/Popupmodel";
+import Titlebartags from "../../components/titlebarTags/Titlebartags";
 const AuthorsPage = () => {
   const [authors, setAuthors] = useState([
     {},
@@ -39,6 +40,7 @@ const AuthorsPage = () => {
   };
   return (
     <>
+    <Titlebartags title='CryptoN : Author Page '/>
       <Box className="author-page-disbluebritbg">
         <Image src={discoverbluebrightbg}></Image>
       </Box>
