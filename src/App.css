@@ -36,6 +36,11 @@ h2.page-title {
   border-radius: 10px;
   overflow: hidden;
 }
+
+
+
+
+
 @media screen and (max-width: 1200px) {
   .top--seller-home-section {
     padding: 30px 50px !important;

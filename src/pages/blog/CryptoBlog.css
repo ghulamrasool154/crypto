@@ -1,0 +1,255 @@
+.cryptoblog {
+  background: #050d1d;
+  padding: 80px 0px;
+}
+
+.blogdispcrition span,
+.blogHeadingNdisp span {
+  color: #019dea !important;
+}
+
+.blogdispcrition {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px !important;
+  line-height: 25px !important;
+  font-weight: 400 !important;
+  margin-bottom: 40px;
+  padding-left: 0px !important;
+}
+
+.blogHeadingNdisp h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  color: #fff;
+}
+
+.blog-menu {
+  font-family: "Poppins", sans-serif;
+  border: 1px solid rgba(94, 102, 125, 0.7) !important;
+  border-radius: 10px;
+  background: none;
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+  padding: 10px 20px;
+  width: 48%;
+  text-align: start;
+}
+
+.left-blog-tab {
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog-menu span {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 0px;
+}
+
+.right-blog-tab {
+  width: 35%;
+  display: flex;
+  justify-content: end;
+}
+
+.buttons-blog {
+  font-family: "Poppins", sans-serif;
+  padding: 10px 20px !important;
+  margin: 0 17px 0px 0 !important;
+  background: #0e2542 !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  color: #f1dfdf;
+}
+
+.buttons-blog:hover {
+  background-color: #000 !important;
+}
+
+.clear-blog-btn {
+  background: #019dea !important;
+  margin-right: 0px !important;
+}
+
+.blogss {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.blog-card {
+  width: 32%;
+  background: rgba(10, 31, 58, 0.3) !important;
+  border-radius: 10px !important;
+  overflow: hidden;
+  margin-top: 25px;
+}
+
+.cards-content-section {
+  padding: 22px;
+  background: #061226;
+}
+
+.date-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+.blog-card-heading {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px !important;
+  line-height: 22px !important;
+  font-weight: 500 !important;
+  color: #fff !important;
+  margin-bottom: 7px !important;
+  text-overflow: ellipsis !important;
+  overflow: hidden !important;
+  white-space: nowrap !important;
+}
+
+.card-blog-para {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px !important;
+  line-height: 22px !important;
+  color: #b1bbd4 !important;
+  font-weight: 300 !important;
+  padding-left: 0px;
+}
+
+.date-cards .blog-title {
+  font-family: "Poppins", sans-serif;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 4px 33px;
+  font-size: 12px;
+  line-height: 18px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.blog-card:nth-child(1) .blog-title,
+.blog-card:nth-child(5) .blog-title {
+  background: #f2994a;
+}
+
+.blog-card:nth-child(2) .blog-title,
+.blog-card:nth-child(6) .blog-title {
+  background: #37c47a !important;
+}
+
+.blog-card:nth-child(3) .blog-title {
+  background: #e932be !important;
+}
+
+.blog-card:nth-child(4) .blog-title {
+  background: #5d32e9;
+}
+.blog-tabs {
+  margin-bottom: 30px;
+}
+.date-cards .blog-date {
+  font-family: "Poppins", sans-serif;
+  color: #019dea !important;
+  font-size: 12px !important;
+  line-height: 18px !important;
+  font-weight: 400 !important;
+}
+.clear-blog-btn i {
+  padding-left: 5px;
+}
+.date-cards .blog-title:hover {
+  background: black !important;
+}
+.date-cards .blog-date:hover {
+  color: white !important;
+}
+
+@media only screen and (max-width: 1200px) {
+  .cryptoblog {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .right-blog-tab {
+    display: none;
+  }
+
+  .left-blog-tab {
+    width: 100%;
+  }
+  .blog-card {
+    width: 48%;
+  }
+  .blog-card img {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+}
+
+@media only screen and (max-width: 996px) {
+  .cryptoblog {
+    padding: 0px;
+  }
+  .blogs-page {
+    width: 90% !important;
+    margin: auto !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .cryptoblog {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .blogHeadingNdisp {
+    text-align: center;
+  }
+
+  .blogHeadingNdisp h3 {
+    font-size: 25px;
+    line-height: 37px;
+    margin-bottom: 20px;
+  }
+
+  .blogdispcrition {
+    line-height: 25px;
+    font-weight: 400;
+    color: #aab0c0;
+  }
+
+  .blog-menu {
+    width: 100% !important;
+    margin-top: 10px;
+  }
+
+  .left-blog-tab {
+    flex-direction: column;
+    display: flex;
+  }
+  .blog-card {
+    width: 100%;
+  }
+  .cryptoblog {
+    padding: 0px;
+  }
+  .blogs-page {
+    width: 100% !important;
+    margin: auto !important;
+    padding: 30px !important;
+  }
+  .blog-tabs {
+    margin-bottom: 15px !important;
+  }
+  .blogdispcrition {
+    margin-bottom: 30px;
+  }
+}

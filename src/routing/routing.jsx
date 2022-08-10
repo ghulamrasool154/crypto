@@ -8,6 +8,8 @@ import Collection from "../pages/collection/Collection";
 import Faq from "../pages/faq/Faq";
 import Discover2 from "../pages/discover2/Discover2";
 import Authors from "../pages/authors/Authors";
+import Articlepage from "../pages/article/Articlepage";
+import CryptoBlog from "../pages/blog/CryptoBlog";
 const Routing = () => {
   return (
     <Routes>
@@ -20,11 +22,8 @@ const Routing = () => {
       <Route path="page/discover2" element={<Discover2 />} />
       <Route path="page/authors" element={<Authors />} />
       <Route path="page/faq" element={<Faq />} />
-      <Route
-        path="page/article"
-        element={<h2 className="page-title"> article</h2>}
-      />
-      <Route path="page/blog" element={<h2 className="page-title"> blog</h2>} />
+      <Route path="page/article" element={<Articlepage />} />
+      <Route path="page/blog" element={<CryptoBlog/>} />
     </Routes>
   );
 };
