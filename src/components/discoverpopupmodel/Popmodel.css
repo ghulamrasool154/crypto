@@ -1,116 +1,123 @@
 @media screen and (max-width: 768px) {
-    .discover2-popup-filter-modal-dialog{
-      position: fixed;
-      top: 0;
-      left: 0;
-      bottom: 0;
-      right: 0;
-      width: 100%;
-      height: 100%;
-      background: #050d1d !important;
-    }
-    img.close--icon {
-      position: absolute;
-      top: 10px;
-      right: 10px;
-    }
-    .discover2-popup-modal-content {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      width: 400px;
-      margin: auto;
-    }
-    .discover2-popup-modal-content .discover2-popup-modal-body{
-      width: 100%;
-    }
-   .discover2-popup-modal-body .chakra-select__icon-wrapper{
-    color: white !important;
-   }
-    .discover2-popup-modal-body .discover2-authors-days,
-    .discover2-popup-modal-body .authors--category,
-    .discover2-popup-modal-body.authors--chain {
-      width: 100%;
-      margin-bottom: 20px !important;
-    }
-    .discover2-lower-section-popup-modal .authors--chain {
-        margin-bottom: 20px !important;
-    }
-
-    .discover2-popup-modal-body.authors--category {
-      margin: 15px 0;
-    }
-    .discover2-popup-modal-body.authors--chain select,
-    .discover2-popup-modal-body .authors--category select,
-    .discover2-popup-modal-body .discover2-authors-days select ,
-    .discover2-popup-modal-body  .authors--chain select,
-    .discover2-lower-section-popup-modal select
-    {
-      border: 1px solid rgba(94, 102, 125, 0.7) !important;
-      height: auto;
-      padding: 10px 20px;
-    }
-    .discover2-popup-modal-body.discover2-modal--bottom{
-      margin-top: 30px;
-    }
-    .discover2-popup-modal-body.discover2-modal--bottom.discover2-authors--filter--button{
-      max-width: 100% !important;
-      margin: 15px 0;
-    }
-    .discover2-popup-modal-body.discover2-modal--bottom .discover2-authors--filter--button:nth-child(2) {
-      background-color: #0e2542 !important;
-    }
-  
-    .row--authors--popup {
-      display: block !important;
-      padding-bottom: 50px;
-    }
-  
-    .row--authors--popup .discover2-authors--filter--button{
-      display: flex;
-      width: 100%;
-      max-width: 70%;
-      margin: auto;
-      background: #019dea;
-      font-weight: 500;
-      color: #fff;
-    }
-    .row--authors--popup .row--authors--page--buttonn:hover {
-      background-color: #000 !important;
-    }
-    .discover2-modal--bottom button {
-        width: 100% !important;
-        
-    }
-    .discover2-apply{
-        background: #019DEA !important;
-    font-weight: 500;
-    font-size: 15px;
-    color: #fff;
-    margin-bottom: 15px !important;
-    }
-    .clearalll{
-        background: #0E2542 !important;
-        font-weight: 500;
-        font-size: 15px;
-        color: #fff;
-    }
-    .discover2-lower-section-popup-modal{
-        border-top: 0.5px solid #3E526C; 
-        padding: 30px 0 0;
-        margin: 30px 0 0; 
-    }
-    .discover2-popup-buttons{
-        margin-bottom: 20px;
-    }
-    .discover2-popup-buttons button{
-        background: #0E2542 !important;
-        border: none;
-        border-radius: 5px;
-        text-align: center;
-        color: #fff;
-        margin-right: 10px;
-    }
-
+  .discover2-popup-filter-modal-dialog{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #050d1d !important;
   }
+.discover2-popup-filter-modal-dialog   img.close--icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+.discover2-popup-filter-modal-dialog   .discover2-popup-modal-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 400px;
+    margin: auto;
+  }
+.discover2-popup-filter-modal-dialog   .discover2-popup-modal-content .discover2-popup-modal-body{
+    width: 100%;
+  }
+.discover2-popup-filter-modal-dialog   .discover2-popup-modal-body .chakra-select__icon-wrapper{
+  color: white !important;
+ }
+.discover2-popup-filter-modal-dialog   .discover2-popup-modal-body .discover2-authors-days, .discover2-popup-filter-modal-dialog
+  .discover2-popup-modal-body .authors--category, .discover2-popup-filter-modal-dialog
+  .discover2-popup-modal-body.authors--chain {
+    width: 100%;
+    margin-bottom: 20px !important;
+  }
+  .discover2-lower-section-popup-modal .authors-chain {
+      margin-bottom: 20px !important;
+  }
+
+  .discover2-popup-modal-body.authors-category {
+    margin: 15px 0;
+  }
+  .discover2-popup-modal-body.authors-chain select,
+  .discover2-popup-modal-body .authors-category select,
+  .discover2-popup-modal-body .discover2-authors-days select ,
+  .discover2-popup-modal-body  .authors-chain select,
+  .discover2-lower-section-popup-modal select
+  {
+    border: 1px solid rgba(94, 102, 125, 0.7) !important;
+    height: auto;
+    padding: 10px 20px;
+  }
+  .discover2-popup-modal-body.discover2-modal-bottom{
+    margin-top: 30px;
+  }
+  .discover2-popup-modal-body.discover2-modal-bottom.discover2-authors-filter-button{
+    max-width: 100% !important;
+    margin: 15px 0;
+  }
+  .discover2-popup-modal-body.discover2-modal-bottom .discover2-authors-filter-button:nth-child(2) {
+    background-color: #0e2542 !important;
+  }
+
+  .row--authors-popup {
+    display: block !important;
+    padding-bottom: 50px;
+  }
+
+  .row-authors-popup .discover2-authors-filter-button{
+    display: flex;
+    width: 100%;
+    max-width: 70%;
+    margin: auto;
+    background: #019dea;
+    font-weight: 500;
+    color: #fff;
+  }
+  .row-authors-popup .row-authors-page-buttonn:hover {
+    background-color: #000 !important;
+  }
+  .discover2-modal-bottom button {
+      width: 100% !important;
+      
+  }
+  .discover2-apply{
+    font-family: 'Poppins', sans-serif;
+      background: #019DEA !important;
+  font-weight: 500 !important;
+  font-size: 15px !important;
+  color: #fff ! important;
+  margin-bottom: 15px !important;
+  }
+  .clearalll{
+    font-family: 'Poppins', sans-serif;
+      background: #0E2542 !important;
+      font-weight: 500 !important;
+      font-size: 15px !important;
+      color: #fff !important;
+  }
+  .discover2-lower-section-popup-modal{
+      border-top: 0.5px solid #3E526C; 
+      padding: 30px 0 0;
+      margin: 30px 0 0; 
+  }
+  .discover2-popup-buttons{
+      margin-bottom: 20px;
+  }
+  .discover2-popup-buttons button{
+  
+
+      background: #0E2542 !important;
+      border: none;
+      border-radius: 5px;
+      text-align: center;
+      color: #fff;
+      margin-right: 10px;
+  }
+ .discover2-popup-filter-modal-dialog .status{
+  margin-bottom: 10px;
+ }
+
+}

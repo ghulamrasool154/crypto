@@ -52,8 +52,8 @@ const Header = () => {
       text: " itemstyle",
     },
     {
-      link: "collection ",
-      text: " collection",
+      link: "collection",
+      text: "collection",
     },
     {
       link: "page/author-page",
@@ -125,10 +125,10 @@ const Header = () => {
 
                   <li className="more--pages--div ">
                     <span
-                      className="nav-custom-link more--pages"
+                      className=" nav-custom-link more--pages "
                       onClick={() => setMoreMenuToggle(!moreMenuToggle)}
                     >
-                      pages <Image src={blueicon} />
+                      pages
                     </span>
                     {moreMenuToggle && (
                       <div className="authors--more--pagess ">
@@ -187,7 +187,6 @@ const Header = () => {
                               blostyle
                             </NavLink>
                           </li>
-                          
                         </ul>
                       </div>
                     )}
@@ -213,19 +212,18 @@ const Header = () => {
                 <Box className="responsive-menu-header">
                   <ul>
                     {mTest.map((element, index) => {
-                    return  <li key={index}>
-                        <NavLink
-                          to={element.link}
-                          className="nav-custom-link"
-                          onClick={toggleMenuSet}
-                        >
-                          
-                          {element.text}
-                        </NavLink>
-                      </li>;
+                      return (
+                        <li key={index}>
+                          <NavLink
+                            to={element.link}
+                            className="nav-custom-link"
+                            onClick={toggleMenuSet}
+                          >
+                            {element.text}
+                          </NavLink>
+                        </li>
+                      );
                     })}
-
-                   
                   </ul>
                 </Box>
               )}

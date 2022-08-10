@@ -35,7 +35,7 @@
 @media screen  and (max-width : 993px){
   .top--seller-home-section {
     width: 90% !important;
-    padding: 0px !important;
+    padding: 30px 0px !important;
   }
   
 }

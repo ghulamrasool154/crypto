@@ -38,22 +38,12 @@ const Create = () => {
 
   const _hanldeChnage = (e) => {
     const nameget = e.target.files[0].name;
-
     setname(nameget);
-
     setFile(e.target.files[0]);
     setPic(true);
   };
 
-  useEffect(() => {
-    var items = document.querySelectorAll("#collectiolist li");
 
-    for (var i = 0; i < items.length; i++) {
-      items[i].onclick = function () {
-        document.getElementById("txt").value = this.innerHTML;
-      };
-    }
-  });
 
   return (
     <>
@@ -61,8 +51,8 @@ const Create = () => {
     <Container maxW="1180px"  className="create-page">
       <Flex className="row">
         <Box className="colum-left">
-          <Box className="" mb="20">
-            <Heading>Create collectible item</Heading>
+          <Box className="create--form--sec" >
+            <Heading className="create--heading">Create collectible item</Heading>
             <Text className="subitile">
               Meet the rules of NFT-art placement in
               <Link to="#"> our help center</Link>
@@ -182,7 +172,7 @@ const Create = () => {
 
         <Box className="colum-right">
           <Heading>Preview of item</Heading>
-          <Box className="aboutitem" borderRadius={"10px"} mt="24">
+          <Box className="aboutitem" borderRadius={"10px"} >
             <Box>
               <Image src={previewiamge} alt="img" />
             </Box>

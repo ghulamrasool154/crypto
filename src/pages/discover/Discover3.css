@@ -84,6 +84,13 @@ a{
   border: none !important;
   color: blue !important;
 }
+.second-abs-table td{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.second-abs-table .price{
+  text-align: end;
+}
 
 @media screen and (max-width: 1200px) {
   .menu-items {
@@ -125,7 +132,7 @@ a{
       display: none;
   }
   .select-box{
-      width: 40%;
+      width: 30%;
       margin:auto;
   }
   .mobile-section{
@@ -182,6 +189,7 @@ th.css-1zts0j {
   color: #E4E4E4 !important;
   font-weight: 400 !important;
   font-size: 14px !important;
+  border-radius: 5px;
 }
 .chakra-menu__menuitem:hover{
   background: #7777 !important;
@@ -239,6 +247,15 @@ a{
   .discover3{
       padding-bottom: 50px !important;
       
+  }
+  .select-box{
+    width: 45%;
+    margin:auto;
+}
+}
+@media screen and (max-width: 480px) {
+  .select-box{
+    width: 55%;
   }
 }
 

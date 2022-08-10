@@ -1,3 +1,6 @@
+header{
+  padding-top: 12px;
+}
 .nav-bar-custom .nav-custom-link.active {
   color: #019dea;
 }

@@ -34,7 +34,7 @@ const Abs_Table = (props) => {
         </Td>
         <Td>
           <Box className="volume">
-            <Flex>
+            <Flex className="volume-inner">
               <Image src={diaIcon} />
               <Text> {vol}</Text>
             </Flex>

@@ -71,11 +71,17 @@ textarea:-moz-placeholder {
 
 /* global responseiv css */
 .popularCollection {
-  padding: 100px 0 !important;
+  padding: 70px 0 !important;
 }
 .bannerSec {
-  padding: 100px 0 0 0 ;
+  padding: 70px 0 0 0 ;
 }
+
+.home .seller-tablist {
+  padding-top: 25px;
+}
+
+
 
 @media screen and (max-width: 1200px) {
 

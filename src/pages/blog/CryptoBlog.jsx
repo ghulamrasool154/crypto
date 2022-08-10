@@ -15,6 +15,7 @@ import {
 import { ChevronDownIcon } from "@chakra-ui/icons";
 import postimage1 from "../../assets/images/post-img1.png";
 import AbsBlogCard from "../../components/AbsBlogCard/AbsBlogCard";
+import Titlebartags from '../../components/titlebarTags/Titlebartags'
 const CryptoBlog = () => {
   const [card, setCard] = useState([
     {
@@ -62,6 +63,7 @@ const CryptoBlog = () => {
   ]);
   return (
     <>
+<Titlebartags title='CryptoN : Blog'/>
       <section className="cryptoblog">
         <Container maxW="1180px" className="blogs-page">
           <Box className="blogHeadingNdisp">
@@ -109,6 +111,7 @@ const CryptoBlog = () => {
           <Box className="blogss">
             {card.map((e, idx) => (
               <AbsBlogCard
+                key={idx}
                 image={e.image}
                 title={e.title}
                 date={e.date}

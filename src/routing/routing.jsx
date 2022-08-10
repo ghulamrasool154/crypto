@@ -18,12 +18,15 @@ const Routing = () => {
       <Route path="discover" element={<Discover3 />} />
       <Route path="itemstyle" element={<ItemDetail />} />
       <Route path="collection" element={<Collection />} />
-      <Route path="page/author-page" element={<AuthorsPage />} />
-      <Route path="page/discover2" element={<Discover2 />} />
-      <Route path="page/authors" element={<Authors />} />
-      <Route path="page/faq" element={<Faq />} />
-      <Route path="page/article" element={<Articlepage />} />
-      <Route path="page/blog" element={<CryptoBlog/>} />
+
+      <Route path="page/"   >
+        <Route path="author-page" index element={<AuthorsPage />} />
+        <Route path="discover2" element={<Discover2 />} />
+        <Route path="authors" element={<Authors />} />
+        <Route path="faq" element={<Faq />} />
+        <Route path="article" element={<Articlepage />} />
+        <Route path="blog" element={<CryptoBlog />} />
+      </Route>
     </Routes>
   );
 };

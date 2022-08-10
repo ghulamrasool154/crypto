@@ -344,8 +344,11 @@ td .diamondiconText{
 display: none;
 }
 
+.custom--tabs--{
+    padding-bottom: 50px !important;
+}
 @media screen and (max-width: 1200px) {
-    .collection-page-all {
+ .authors-page   .collection-page-all {
         padding-left: 50px !important;
         padding-right: 50px !important;
     }
@@ -449,7 +452,7 @@ display: none;
         justify-content: center;
     }
 
-    .collection-page-all {
+  .authors-page  .collection-page-all {
         padding-left: 30px !important;
         padding-right: 30px !important;
     }

@@ -15,7 +15,6 @@ const Home = () => {
   return (
     <>
     <Titlebartags title='CryptoN : Home'/>
-    
     <Box className="home">
       <Box className="circlebg1">
         <Image src={imgcircle1} />

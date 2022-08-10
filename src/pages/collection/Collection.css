@@ -1,6 +1,7 @@
 .collection-page {
     background: #050D1D;
 }
+
 .ban-bottom-img{
     position: absolute;
     left: 0;
@@ -192,7 +193,7 @@ margin-right: 8px !important;
     display: none !important;
 }
 @media screen and (max-width: 1200px) {
-    .collection-page-all{
+ .collection-page   .collection-page-all{
         padding-left: 50px !important;
         padding-right: 50px !important;
     }
@@ -259,9 +260,10 @@ margin-right: 8px !important;
         margin-top: 30px;
         justify-content: center;
     }
-    .collection-page-all{
+ .collection-page   .collection-page-all{
         padding-left: 30px !important;
         padding-right: 30px !important;
+        padding-top: 0px !important;
     }
     .banner-collection{
         width: 100%;

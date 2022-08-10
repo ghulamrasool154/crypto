@@ -261,6 +261,7 @@ const Discover3 = () => {
                     {table.map((e, idx) => (
                       <Abs_Table
                         key={idx}
+                        id={e.id}
                         photo={e.photo}
                         heading={e.heading}
                         diaIcon={e.diaIcon}
@@ -300,6 +301,7 @@ const Discover3 = () => {
                     {secondTable.map((e, idx) => (
                       <Second_Abs_Table
                         key={idx}
+                        id={e.id}
                         mobimage={e.mobimage}
                         diaIcon={e.diaIcon}
                       />

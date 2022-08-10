@@ -26,7 +26,7 @@
   display: inline-flex;
   flex-wrap: wrap;
   padding: 16px 0 0 0;
-  max-width: 500px;
+  max-width: 400px;
   width: 100%;
 }
 
@@ -89,7 +89,6 @@
 }
 
 @media screen and (max-width: 1200px) {
- 
   .bannerSec .row {
     align-items: center;
   }
@@ -132,6 +131,9 @@
   }
   .bannerSec .row.css-gg4vpm {
     display: block;
+  }
+  .bannerSec .column--banner {
+    flex-direction: column;
   }
 }
 

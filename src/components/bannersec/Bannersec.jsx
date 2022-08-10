@@ -16,7 +16,7 @@ import bannermain from "../../assets/images/bannermain.png";
 const Bannersec = () => {
   return (
     <Container className="bannerSec" maxW="1180px">
-      <Flex className="row" justifyContent="space-between">
+      <Flex className="row column--banner" justifyContent={"space-evenly"}>
         <Box className="bannerImg">
           <Box className="bannerimg01 ">
             <Image className="img-fluid" src={bannerimg1} alt="img" />
@@ -40,13 +40,13 @@ const Bannersec = () => {
           <Box className="responsiveimge">
             <Image src={bannermain}></Image>
           </Box>
-          <Heading className="textwhitecolor">
+          <h2 className="textwhitecolor">
             Discover, collect, and sell{" "}
             <span className="textbluecolor">extraordinary NFTs</span>{" "}
-          </Heading>
-          <Text className="textgraycolor">
+          </h2>
+          <p className="textgraycolor">
             on the world's first & largest NFT marketplace
-          </Text>
+          </p>
           <Box className="bannerbtn ">
             <Button className="btnlightblue">Discover</Button>
             <Button className="btndarkblue">Create</Button>

@@ -39,7 +39,7 @@ const LastAddSlider = () => {
     ],
   };
   return (
-    <div className="lastslider">
+    <Box className="lastslider" p='0'>
       <Slider {...settings}>
         {ApiList.map((element, index) => {
           return (
@@ -70,7 +70,7 @@ const LastAddSlider = () => {
           );
         })}
       </Slider>
-    </div>
+    </Box>
   );
 };
 

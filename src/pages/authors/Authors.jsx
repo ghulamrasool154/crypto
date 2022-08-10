@@ -154,7 +154,7 @@ const Authors = () => {
           {/* authors second section start here */}
 
           {/* tabs section starts hers  */}
-          <Tabs>
+          <Tabs className="custom--tabs--">
             <TabList className="authos-tablistsss">
               <Tab>
                 <i className="fa-solid fa-album-circle-plus"></i>Collected 5
