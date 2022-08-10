@@ -1,6 +1,7 @@
 
 .authors-page {
     background: #050D1D;
+    
 }
 
 .ban-bottom-img {
@@ -307,11 +308,11 @@ td .diamondiconText {
     font-family: 'Poppins', sans-serif !important;
     font-size: 14px !important;
     color: #fff;
+    padding-left: 8px;
 }
-
-.from,
-.to,
-.timess {
+.authors-page .from,
+.authors-page .to,
+.authors-page .timess {
     font-size: 14px !important;
     font-family: 'Poppins', sans-serif !important;
     color: #019DEA;
@@ -327,26 +328,31 @@ td .diamondiconText {
 .activity-table-panel tr th:nth-child(4){
     text-align: center !important;
 }
-
-.activity-table-panel td {
-    border-bottom: 1px solid #3E526C !important;
+.activity-table-panel tr th:nth-child(1), .activity-table-panel tr th:nth-child(2){
+text-align: start !important;
 }
-.qty {
+
+.authors-page .activity-table-panel td {
+    border-bottom: 1px solid #3E526C !important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+.authors-page .qty {
     text-align: center !important;
 }
-td .diamondiconText{
+.authors-page td .diamondiconText{
     justify-content: end !important;
 }
-.handiconText img{
+.authors-page .handiconText img{
     margin-right: 8px !important;
 }
 .aurthor-mobile-acitivy-list{
 display: none;
 }
-
-.custom--tabs--{
-    padding-bottom: 50px !important;
+.responsive-activty-section{
+    padding-bottom: 40px !important;
 }
+
 @media screen and (max-width: 1200px) {
  .authors-page   .collection-page-all {
         padding-left: 50px !important;
